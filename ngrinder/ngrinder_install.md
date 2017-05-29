@@ -25,7 +25,7 @@ sudo java -XX:MaxPermSize=200m -jar /root/ngrinder/ngrinder-controller.war ngrin
 ## ngrinder agent
 ### ngrinder agent 설치
 ```
-sudo wget -O ngrinder-agent.tar http://192.168.0.60:8080/agent/download
+sudo wget -O ngrinder-agent.tar http://<controller ip:port>/agent/download
 sudo tar xvf ngrinder-agent.tar
 cd ngrinder-agent
 ```
@@ -51,7 +51,7 @@ sudo run_agent_bg.sh
 ## ngrinder monitor
 ### ngrinder monitor 설치
 ```
-sudo wget -O ngrinder-monitor.tar http://192.168.0.60:8080/monitor/download
+sudo wget -O ngrinder-monitor.tar http://<controller ip:port>/monitor/download
 sudo tar xvf ngrinder-monitor.tar
 cd ngrinder-monitor
 ```
