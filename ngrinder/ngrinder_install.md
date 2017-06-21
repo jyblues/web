@@ -19,7 +19,7 @@ sudo firewall-cmd --reload
 ```
 ### ngrinder controller 실행
 ```
-sudo java -XX:MaxPermSize=200m -jar /root/ngrinder/ngrinder-controller.war ngrinder-controller.war --port 8080
+sudo java -XX:MaxPermSize=200m -jar /root/ngrinder/ngrinder-controller.war --port 8080
 ```
 
 ## ngrinder agent
